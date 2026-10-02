@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.postjohannes.trello",
+  "name": "Trello",
+  "version": "1.0.0",
+  "author": "Johannes Post",
+  "license": "MIT",
+  "description": "Trello boards and lists in the Omarchy bar: check issues off and add new ones without leaving the shell.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Trello",
+    "description": "Pick a board and list, check issues off, and create new ones from a bar panel.",
+    "category": "Productivity",
+    "aliases": ["trello", "kanban", "cards", "issues"],
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
